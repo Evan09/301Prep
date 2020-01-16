@@ -10,8 +10,7 @@ int oddSum(int[], int);
 void combineArrayElements(int[], int, int[], int);
 const int arraySize = 10;
 
-int main() {
-	int* p;
+int main2() {
 	int arr[5];
 	int initArray[arraySize] = { 10, 23, 343, 1, 26 };
 	int oddNumbers;
@@ -26,12 +25,13 @@ int main() {
 		cin >> arr[i];
 	}
 
-	cout << "Combining user input array into the sorted array...\n";
+	cout << "Combining user input array into the initial array...\n";
 	combineArrayElements(initArray, arraySize, arr, size);
-	cout << "Unsorted array: \n";
+
+	cout << "Combined array: \n";
 	printArray(initArray, arraySize);
 
-	cout << "Sorted array: \n";
+	cout << "Sorted: \n";
 	bubbleSort(initArray, arraySize);
 	printArray(initArray, arraySize);
 

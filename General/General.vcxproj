@@ -154,6 +154,7 @@
     <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="ClassExample.cpp" />
     <ClCompile Include="General.cpp" />
+    <ClCompile Include="PointersAndReferences.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassExampleHeader.h" />
