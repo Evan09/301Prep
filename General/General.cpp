@@ -6,7 +6,7 @@ using namespace std;
 
 const int arrSize = 5;
 
-int main1() {
+int main() {
 	// Data initilization
 	int userValue;
 	int array[arrSize];
