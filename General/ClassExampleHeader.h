@@ -11,6 +11,7 @@ class BMI {
 public:
 	BMI();
 	BMI(string, int, double);
+	void showBMI();
 
 private:
 	string name;
