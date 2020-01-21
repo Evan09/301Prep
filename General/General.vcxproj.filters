@@ -27,9 +27,33 @@
     <ClCompile Include="PointersAndReferences.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ADT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassExampleHeader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="customer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bst.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
